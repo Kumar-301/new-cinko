@@ -61,6 +61,9 @@
 .policy-link {
   color: var(--subtext);
 }
+.faq-section__text.wrapping-text {
+  word-wrap: break-word;
+}
 @media (max-width: 576px) {
   .faq-section__title {
     font-size: 1.8rem;
