@@ -8,7 +8,7 @@
             <span>Cinko: </span>When you do not make a reservation but need a
             hotel room at the last hour
           </p>
-          <button class="btn btn-primary">Explore More</button>
+          <button class="btn btn-primary" (click)="redirectToAboutUs()">Explore More</button>
         </div>
       </div>
       <div class="col-md-6 col-12 mt-4 mt-md-0">
@@ -29,6 +29,8 @@
                   <option value="1">One</option>
                   <option value="2">Two</option>
                   <option value="3">Three</option>
+                  <option value="4">Four</option>
+                  <option value="5">Five</option>
                 </select>
               </div>
             </li>
@@ -40,11 +42,13 @@
                   <option value="1">One</option>
                   <option value="2">Two</option>
                   <option value="3">Three</option>
+                  <option value="4">Four</option>
+                  <option value="5">Five</option>
                 </select>
               </div>
             </li>
           </ul>
-          <button class="btn btn-primary">Submit</button>
+          <button class="btn btn-primary">Search Hotel</button>
         </div>
       </form>
     </div>
@@ -71,7 +75,7 @@
             a room for the night and a hotel who has a room that they thought
             would remain empty for the night!
           </p>
-          <button class="btn btn-primary">Read More</button>
+          <button class="btn btn-primary" (click)="redirectToAboutUs()">Read More</button>
         </div>
       </div>
       <div class="col-md-6 col-sm-12">
@@ -124,7 +128,9 @@
     </div>
   </div>
 </section>
-<section class="vision-mission">
+
+<!-- 4. On Home Screen, please remove this section until we have a professional video created. This is pending for the future so please keep this option in a file for later use. -->
+<!-- <section class="vision-mission">
   <div class="container">
     <div class="row justify-content-between">
       <div class="col-md-5 col-sm-12">
@@ -167,7 +173,8 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
+
 <section class="howitworks">
   <div class="container">
     <div class="row">
@@ -178,8 +185,8 @@
         <div class="image-wrap image-wrap--howitwork">
           <div class="image-outer">
             <img
-              src="../../assets/img/vcplayer.png"
-              alt="image-wrap"
+              src="../../assets/img/cinko-howItworks.png"
+              alt="cinko how it works?"
               class="img-fluid"
               loading="lazy"
             />
@@ -192,7 +199,9 @@
             <div
               class="howitworks__details__iconholder howitworks__details__iconholder--green"
             >
-              <span class="icon-edit"></span>
+              <span>
+                <img src="../../assets/img/downloadIcon.svg" alt="download icon">
+              </span>
             </div>
             <p class="section-subtitle mb-0">Download the free Cinko App.</p>
           </li>
@@ -200,7 +209,9 @@
             <div
               class="howitworks__details__iconholder howitworks__details__iconholder--purple"
             >
-              <span class="icon-edit"></span>
+              <span>
+                <img src="../../assets/img/editIcon.svg" alt="edit icon">
+              </span>
             </div>
             <p class="section-subtitle mb-0">
               Tell the app how far from where you are hoping to find a hotel
@@ -211,7 +222,9 @@
             <div
               class="howitworks__details__iconholder howitworks__details__iconholder--violet"
             >
-              <span class="icon-edit"></span>
+              <span>
+                <img src="../../assets/img/hotelIcon.svg" alt="hotel icon">
+              </span>
             </div>
             <p class="section-subtitle mb-0">
               Cinko finds a hotel near you which has an empty room for the night
@@ -222,7 +235,9 @@
             <div
               class="howitworks__details__iconholder howitworks__details__iconholder--orange"
             >
-              <span class="icon-edit"></span>
+              <span>
+                <img src="../../assets/img/ticketIcon.svg" alt="ticekt icon">
+              </span>
             </div>
             <p class="section-subtitle mb-0">
               Once Cinko matches you with the hotel, you will be charged for the
@@ -240,7 +255,7 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col">
-        <h2 class="section-title">How it works?</h2>
+        <h2 class="section-title">Accommodations</h2>
       </div>
       <div class="col d-flex justify-content-end">
         <button class="btn btn-secondary">See All</button>
@@ -257,7 +272,7 @@
             <div class="image-wrap image-wrap--accomodations">
               <div class="image-outer">
                 <img
-                  src="../../assets/img/vcplayer.png"
+                  src="../../assets/img/hotel1.png"
                   alt="image-wrap"
                   class="img-fluid"
                   loading="lazy"
@@ -305,7 +320,7 @@
             <div class="image-wrap image-wrap--accomodations">
               <div class="image-outer">
                 <img
-                  src="../../assets/img/vcplayer.png"
+                  src="../../assets/img/hotel2.png"
                   alt="image-wrap"
                   class="img-fluid"
                   loading="lazy"
@@ -353,7 +368,7 @@
             <div class="image-wrap image-wrap--accomodations">
               <div class="image-outer">
                 <img
-                  src="../../assets/img/vcplayer.png"
+                  src="../../assets/img/hotel3.png"
                   alt="image-wrap"
                   class="img-fluid"
                   loading="lazy"

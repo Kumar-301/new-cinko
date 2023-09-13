@@ -11,7 +11,7 @@
 
 .about-aboutus {
   padding-top: 5.7rem;
-  padding-bottom: 7.7rem;
+  /* padding-bottom: 7.7rem; */
 }
 .about-aboutus__content {
   max-width: 50rem;
@@ -32,13 +32,6 @@
 .image-wrap--vcplayer {
   padding-bottom: 35%;
   border-radius: 2.6rem;
-}
-.image-outer {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
 }
 .videoplayer a .image-outer {
   transition: transform 0.2s ease-in-out;
@@ -109,9 +102,6 @@
 }
 
 /*about cinko standards repeate*/
-.image-wrap--howitwork {
-  padding-bottom: 60%;
-}
 
 @media (max-width: 991px) {
   .about-aboutus {
@@ -137,5 +127,8 @@
 @media (max-width: 576px) {
   .image-wrap--vcplayer {
     padding-bottom: 65%;
+  }
+  .about-sky-img{
+    padding-right: 8px;
   }
 }

@@ -18,6 +18,11 @@ import { ViewHotelComponent } from './view-hotel/view-hotel.component';
 import { ViewRoomComponent } from './view-room/view-room.component';
 import { ViewTicketsComponent } from './view-tickets/view-tickets.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
+import { HotelsListComponent } from './hotels-list/hotels-list.component';
+import { HotelBookingComponent } from './hotel-booking/hotel-booking.component';
+import { HotelInvoiceComponent } from './hotel-invoice/hotel-invoice.component';
+import { HotelTicketComponent } from './hotel-ticket/hotel-ticket.component';
+import { MyRoomComponent } from './my-room/my-room.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +41,12 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
     ViewHotelComponent,
     ViewRoomComponent,
     ViewTicketsComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    HotelsListComponent,
+    HotelBookingComponent,
+    HotelInvoiceComponent,
+    HotelTicketComponent,
+    MyRoomComponent
   ],
   imports: [
     BrowserModule,

@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./user-profile.component.css']
 })
 export class UserProfileComponent {
-
+  showUpdateProfilePopup: boolean = false
+  updateProfile(){
+    if(this.showUpdateProfilePopup == false){
+      this.showUpdateProfilePopup = true
+    } else{
+      this.showUpdateProfilePopup = false
+    }
+  }
+  
 }

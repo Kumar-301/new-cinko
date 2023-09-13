@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./terms-conditions.component.css']
 })
 export class TermsConditionsComponent {
-
+  showContent: boolean = false
+  readMore(){
+    if(this.showContent == false){
+      this.showContent = true
+    }else{
+      this.showContent = false
+    }
+  }
 }
